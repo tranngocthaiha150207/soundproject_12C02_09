@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Nhóm 9_12C02</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- owl stylesheets --> 
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
+   </head>
+  
+   <body>
+      <!-- header section start -->
+      <div class="header_section">
+         <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="logo" href="index.html"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                     <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="movies.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="tv.html">Music</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="celebs.html">Contact</a>
+                  </li>
+               </ul>
+               <div class="search_icon"><a href="#"><img src="images/notification-icon.png"><span class="padding_left_15">Notification</span></a></div>
+               <div class="search_icon"><a href="#"><img src="images/eye-icon.png"><span class="padding_left_15">View</span></a></div>
+               <div class="search_icon"><a href="#"><img src="images/user-icon.png"><span class="padding_left_15">Login</span></a></div>
+               <div class="search_icon"><a href="#"><img src="images/search-icon.png"><span class="padding_left_15">Search...</span></a></div>
+            </div>
+         </nav>
+      </div>
+      <!-- header section end -->
+      <!-- banner section end -->
+      <div class="banner_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="banner_taital">Enjoy <br>Our New Sound Project.</div>
+                  <p class="banner_text">From Teachable Machine made by Group 9 - 12C02. </p>
+                  <div class="see_bt"><a href="#">See More</a></div>
+               </div>
+               <div class="col-md-6">
+                  <div class="play_icon"><a href="#"><img src="images/play-icon.png"></a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- banner section end -->
+      <!-- arrival section start -->
+      <div class="arrival_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-6 col-lg-4">
+                  <div class="image_1">
+                     <img src="https://i.pinimg.com/736x/5a/e3/3c/5ae33c58959492c2784be9351c16351e.jpg" alt="">
+                  </div>
+               </div>
+               <div class="col-sm-6 col-lg-4">
+                  <div class="image_2">
+                     <img src="https://i.pinimg.com/736x/7b/0b/eb/7b0bebea28bb4b195f7576994eb54d4c.jpg" alt="">
+                  </div>
+               </div>
+               <div class="col-sm-8 col-lg-4">
+                  <h1 class="arrival_text">O u r T e a m</h1>
+                  <div class="movie_main">
+                     <div class="mins_text">Nhóm 9 - 12C02</div>
+                  </div>
+                  <p class="long_text">We would like to show you our Sound Project about different sound of instruments made by Teachable Machine.</p>
+                  <p class="long_text">Hope that you will have a great experience here.</p>
+                  <p class="long_text">Group members: Thái Hà (11), Chí Công (7), Khánh Đô (10), Ngọc Anh (2).</p>
+                  <p class="long_text">Sincerely.</p>
+                  <div class="rating_main">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- arrival section end -->
+      <!-- movies section start -->
+      
+      <!-- <div class="container">
+         <div>Teachable Machine Audio Model</div>
+         <button style="margin-bottom: 10%;" type='button' onclick='init()'>Start</button>
+         <div id='label-container'></div>
+         <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/speech-commands@0.4.0/dist/speech-commands.min.js"></script>
+
+         <script type="text/javascript">
+          // more documentation available at
+         // https://github.com/tensorflow/tfjs-models/tree/master/speech-commands
+
+         // the link to your model provided by Teachable Machine export panel
+         const URL = 'https://teachablemachine.withgoogle.com/models/f_eZU-lo0/';
+
+         async function createModel() {
+            const checkpointURL = URL + 'model.json'; // model topology
+            const metadataURL = URL + 'metadata.json'; // model metadata
+
+            const recognizer = speechCommands.create(
+               'BROWSER_FFT', // fourier transform type, not useful to change
+               undefined, // speech commands vocabulary feature, not useful for your models
+               checkpointURL,
+               metadataURL
+            );
+
+            // check that model and metadata are loaded via HTTPS requests.
+            await recognizer.ensureModelLoaded();
+
+            return recognizer;
+         }
+
+         async function init() {
+            const recognizer = await createModel();
+            const classLabels = recognizer.wordLabels(); // get class labels
+            const labelContainer = document.getElementById('label-container');
+            for (let i = 0; i < classLabels.length; i++) {
+            labelContainer.appendChild(document.createElement('div'));
+         }
+
+        // listen() takes two arguments:
+        // 1. A callback function that is invoked anytime a word is recognized.
+        // 2. A configuration object with adjustable fields
+        recognizer.listen(result => {
+            const scores = result.scores; // probability of prediction for each class
+            // render the probability scores per class
+            for (let i = 0; i < classLabels.length; i++) {
+                const classPrediction = classLabels[i] + ': ' + result.scores[i].toFixed(2);
+                labelContainer.childNodes[i].innerHTML = classPrediction;
+            }
+        }, {
+            includeSpectrogram: true, // in case listen should return result.spectrogram
+            probabilityThreshold: 0.75,
+            invokeCallbackOnNoiseAndUnknown: true,
+            overlapFactor: 0.50 // probably want between 0.5 and 0.75. More info in README
+        });
+
+        // Stop the recognition in 5 seconds.
+        // setTimeout(() => recognizer.stopListening(), 5000);
+    }
+</script> -->
+         
+      </div>
+      <!-- movies section end -->
+      <!-- newsletter section start -->
+      <div class="newsletter_section layout_padding">
+         <div class="container">
+            <h1 class="newsletter_text">Teachable Machine Audio Model</h1>
+            <button style="margin-bottom: 10%; margin-left: 42%; background-color: #df9911; font-size: 18px; color: white; width: 170px; padding: 7px 0px;
+               border-radius: 40px;" type='button' onclick='init()'>Start</button>
+         </div>
+
+         <div style="margin-left: 44%; margin-top:-5%; color:white;">
+      
+            <div id='label-container'></div>
+            <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/speech-commands@0.4.0/dist/speech-commands.min.js"></script>
+
+            <script type="text/javascript">
+            // more documentation available at
+            // https://github.com/tensorflow/tfjs-models/tree/master/speech-commands
+
+            // the link to your model provided by Teachable Machine export panel
+            const URL = 'https://teachablemachine.withgoogle.com/models/f_eZU-lo0/';
+
+            async function createModel() {
+               const checkpointURL = URL + 'model.json'; // model topology
+               const metadataURL = URL + 'metadata.json'; // model metadata
+
+               const recognizer = speechCommands.create(
+               'BROWSER_FFT', // fourier transform type, not useful to change
+               undefined, // speech commands vocabulary feature, not useful for your models
+               checkpointURL,
+               metadataURL
+            );
+
+               // check that model and metadata are loaded via HTTPS requests.
+               await recognizer.ensureModelLoaded();
+
+               return recognizer;
+            }
+
+            async function init() {
+               const recognizer = await createModel();
+               const classLabels = recognizer.wordLabels(); // get class labels
+               const labelContainer = document.getElementById('label-container');
+               for (let i = 0; i < classLabels.length; i++) {
+               labelContainer.appendChild(document.createElement('div'));
+            }
+
+        // listen() takes two arguments:
+        // 1. A callback function that is invoked anytime a word is recognized.
+        // 2. A configuration object with adjustable fields
+        recognizer.listen(result => {
+            const scores = result.scores; // probability of prediction for each class
+            // render the probability scores per class
+            for (let i = 0; i < classLabels.length; i++) {
+                const classPrediction = classLabels[i] + ': ' + result.scores[i].toFixed(2);
+                labelContainer.childNodes[i].innerHTML = classPrediction;
+            }
+        }, {
+            includeSpectrogram: true, // in case listen should return result.spectrogram
+            probabilityThreshold: 0.75,
+            invokeCallbackOnNoiseAndUnknown: true,
+            overlapFactor: 0.50 // probably want between 0.5 and 0.75. More info in README
+        });
+
+        // Stop the recognition in 5 seconds.
+        // setTimeout(() => recognizer.stopListening(), 5000);
+}
+</script>
+</div>
+         
+      <!-- newsletter section end -->
+      <!-- cooming  section start -->
+      <!-- cooming  section end -->
+      <!-- footer  section start -->
+      <!-- footer  section end -->
+      <!-- copyright section start -->
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- javascript --> 
+      <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/speech-commands@0.4.0/dist/speech-commands.min.js"></script>
+      <script src="js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+      <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+      <script>
+         $('#datepicker').datepicker({
+             uiLibrary: 'bootstrap4'
+         });
+      </script>
+   </body>
+</html>
